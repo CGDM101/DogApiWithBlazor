@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogApi", "DogApi\DogApi.csproj", "{E39FE007-F86F-46AE-AB60-A7913A72FB29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E39FE007-F86F-46AE-AB60-A7913A72FB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39FE007-F86F-46AE-AB60-A7913A72FB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39FE007-F86F-46AE-AB60-A7913A72FB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39FE007-F86F-46AE-AB60-A7913A72FB29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E70F06B-35E3-4D8A-A329-CA12CFF65554}
+	EndGlobalSection
+EndGlobal

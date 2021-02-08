@@ -1,0 +1,20 @@
+﻿@page "/"
+
+@inject HttpClient Http;
+
+<h1 style="color:dodgerblue">Hejsan världen</h1>
+
+<button @onclick="@onClick">Jag vill se söta hundar!</button>
+
+<br />
+<br />
+
+<img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg" /> <!-- denna ska ändras vid onClick -->
+
+@code{
+
+    private void onClick(MouseEventArgs e)
+    {
+
+    }
+}
