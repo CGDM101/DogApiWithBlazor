@@ -1,10 +1,12 @@
 ﻿@page "/"
 
-@inject HttpClient Http;
+@using System.Net.Http
+@inject HttpClient Http
 
 <h1 style="color:dodgerblue">Hejsan världen</h1>
 
 <button @onclick="@onClick">Jag vill se söta hundar!</button>
+
 
 <br />
 <br />
@@ -13,7 +15,7 @@
 
 @code{
 
-    private void onClick(MouseEventArgs e)
+    private void onClick()
     {
 
     }
